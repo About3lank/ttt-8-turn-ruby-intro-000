@@ -19,7 +19,7 @@ def valid_move?(board, index)
   x = board[index]
   if index > 8 or index < 0
     false
-  elif x == " " or x == "" or x = nil
+  elsif x == " " or x == "" or x = nil
     true
   else
     false
