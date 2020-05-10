@@ -6,7 +6,7 @@ def turn(board)
     move(board, index, "X")
   else
     until valid_move?(board, index)
-      
+
   end
 
 end
