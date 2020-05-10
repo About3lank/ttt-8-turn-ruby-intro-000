@@ -10,3 +10,12 @@ def input_to_index(user_input)
   input = user_input.to_i
   index = input - 1
 end
+
+def valid_move?(board, index)
+  x = board[index]
+  if x == " " || x == "" || x == nil
+    true
+  else
+    false
+  end
+end
